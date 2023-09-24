@@ -1,0 +1,21 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "RSS agregator",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx webpack --mode production",
+    "start": "npx webpack --mode development"
+  },
+  "author": "Darya Agafonova",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
