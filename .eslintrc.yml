@@ -10,12 +10,10 @@ env:
   browser: true
   es2021: true
 
-parser: "@babel/eslint-parser"
-
 extends: 
   - "airbnb-base"
-  - "plugin:jest/recommend"
+  - "plugin:jest/recommended"
 
 rules: 
   no-console: 0
-    import/extensions: 0
+  import/extensions: 0
